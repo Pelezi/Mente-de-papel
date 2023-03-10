@@ -1,0 +1,57 @@
+.contact {
+    text-align: left;
+    width: 80%;
+    background-color: #1E2BA3;
+    border-radius: 50px;
+    color: #EBEDFF;
+    display: inline-block;
+    margin: 50px;
+}
+
+form fieldset {
+    border: 0px;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input {
+    width: 100%;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+form {
+    height: 100%;
+    font-size: 20px;
+}
+
+.button {
+    border: 0;
+    background-color: #E8F7FF;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.button:hover {
+    background-color: #ceedfd;
+}
+
+section {
+    background-color: #E8F7FF;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+  }

@@ -1,0 +1,216 @@
+body {
+    font-family: "Montserrat", "Arial";
+    margin: 0;
+    color: #000C7A;
+}
+
+h1 {
+    font-family: "Montserrat", "Arial";
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Montserrat", "Arial";
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px 0px 60px 0px;
+}
+
+.logo a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav a{
+    display: block;
+    float: left;
+    color: #EBEDFF;
+    text-align: center;
+    padding: 36px 40px;
+    text-decoration: none;
+}
+
+.topnav a:hover:not(.logo) {
+    background-color: #1E2BA3;
+}
+
+.active {
+    background-color: #1E2BA3;
+}
+
+.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .right, .topnav a, .topnav li {float: none;}
+}
+
+
+header, footer {
+    background-color: #3A45AF;
+    color: #EBEDFF;
+}
+
+.bio img {
+    height: 250px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.bio {
+    padding: 50px;
+    background-color: #E8F7FF;
+    overflow: hidden;
+    text-align: center;
+}
+
+.realbio {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.body_left {
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.body_ {
+    overflow: hidden;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+.body_left img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.body_left iframe {
+    vertical-align:top;
+    display: inline-block;
+}
+
+.paragraph_right {
+    width: 40%;
+    margin: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.ilustration {
+    width: 40%;
+}
+
+section {
+    padding: 40px;
+}
+
+section h4 {
+    text-align: left;
+}
+
+.blue {
+    background-color: #3A45AF;
+    color: #EBEDFF;
+}
+
+.white {
+    background-color: white;
+    color: #000C7A;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 450px) {
+    footer p {margin: 10px;}
+    
+}
+
+@media screen and (max-width: 814px) {
+    .ilustration, .paragraph_right {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    section {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+
+/*Montserrat SemiBold*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat-SemiBold.ttf);
+    src: url(../assets/Montserrat-SemiBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Montserrat SemiBold italic*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat-SemiBoldItalic.ttf);
+    src: url(../assets/Montserrat-SemiBoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Montserrat Bold*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat-Bold.ttf);
+    src: url(../assets/Montserrat-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Montserrat Bold Italic*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/Montserrat-BoldItalic.ttf);
+    src: url(../assets/Montserrat-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Beyond;
+    src: url(../assets/beyond_the_mountains.ttf);
+    src: url(../assets/beyond_the_mountains.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
