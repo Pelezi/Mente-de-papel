@@ -206,11 +206,3 @@ footer p {
     font-weight: bold;
     font-style: italic;
 }
-
-@font-face {
-    font-family: Beyond;
-    src: url(../assets/beyond_the_mountains.ttf);
-    src: url(../assets/beyond_the_mountains.ttf) format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
