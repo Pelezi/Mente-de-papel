@@ -119,6 +119,14 @@ header, footer {
     width: 40%;
 }
 
+.bunny {
+    border-radius: 60px;
+    float: right;
+    margin: 20px;
+    max-height: 150px;
+    max-width: 485px;
+}
+
 section {
     padding: 40px;
 }
@@ -152,9 +160,10 @@ footer p {
 }
 
 @media screen and (max-width: 814px) {
-    .ilustration, .paragraph_right {
+    .ilustration, .paragraph_right, .bunny {
         width: 100%;
-        margin: 20px;
+        margin: 20px 0px;
+        float: none;
     }
 }
 
@@ -164,9 +173,24 @@ footer p {
     }
 }
 
+@media screen and (max-width: 814px) {
+    .body_ {
+        padding: 0px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     iframe {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h4 {
+        font-size: 25px;
+    }
+    iframe { height: 150px;
+
     }
 }
 
