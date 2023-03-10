@@ -16,10 +16,6 @@ form fieldset label {
     display: block;
 }
 
-form fieldset input {
-    width: 100%;
-}
-
 form fieldset input, textarea {
     width: 100%;
 }
@@ -27,6 +23,7 @@ form fieldset input, textarea {
 form {
     height: 100%;
     font-size: 20px;
+    padding: 20px;
 }
 
 .button {
