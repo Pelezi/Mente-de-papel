@@ -1,6 +1,6 @@
 .contact {
     text-align: left;
-    width: 80%;
+    width: 40%;
     background-color: #1E2BA3;
     border-radius: 50px;
     color: #EBEDFF;
@@ -51,4 +51,8 @@ table, th, td {
 
 th, td {
     padding: 15px;
+}
+
+.invalid {
+    border: 1px solid red;
 }
