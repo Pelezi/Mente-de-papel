@@ -10,7 +10,7 @@
         <meta name="keywords" content="Currículo, produtos, site, pessoal, desenvolvedor, programação">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="../assets/favicon-16x16.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/favicon-32x32.png" type="image/x-icon">
 
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/Contato.css">
@@ -50,7 +50,7 @@
 
                         <fieldset>
                             <label for="input-tel">Telefone</label>
-                            <input type="tel" name="input-tel" id="input-tel" placeholder="(xx) x xxxx-xxxx" required pattern="^\(\d{2}\) \d{1} \d{4}-\d{4}$" maxlength="16" oninput="validarFormulario()">
+                            <input type="tel" name="input-tel" id="input-tel" placeholder="(xx) xxxxx-xxxx" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15" onkeyup="numeroTelefone(event); validarFormulario()">
                         </fieldset>
 
                         <fieldset>

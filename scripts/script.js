@@ -38,8 +38,21 @@ function enviarParaWhatsapp(){
 
     const texto = `Nome: ${nome}\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`;
     const textoCodificado = encodeURIComponent(texto);
-    const numeroWhatsApp = '558197250606'; // Insira o número de telefone do WhatsApp aqui (apenas números)
+    const numeroWhatsApp = '5581998625899'; // Insira o número de telefone do WhatsApp aqui (apenas números)
     const url = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
 
     window.open(url, '_blank');
+}
+
+const numeroTelefone = (event) => {
+    let input = event.target
+    input.value = mascaraTelefone(input.value)
+}
+
+const mascaraTelefone = (value) => {
+    if (!value) return ""
+    value = value.replace(/\D/g,'')
+    value = value.replace(/(\d{2})(\d)/,"($1) $2")
+    value = value.replace(/(\d)(\d{4})$/,"$1-$2")
+    return value
 }

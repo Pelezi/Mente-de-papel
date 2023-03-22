@@ -26,6 +26,10 @@ form {
     padding: 20px;
 }
 
+input:focus {
+    outline: none;
+}
+
 .button {
     border: 0;
     background-color: #E8F7FF;
@@ -55,4 +59,9 @@ th, td {
 
 .invalid {
     border: 1px solid red;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact {width: 90%;}
+    
 }
