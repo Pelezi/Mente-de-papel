@@ -2,6 +2,8 @@ body {
     font-family: "Montserrat", "Arial";
     margin: 0;
     color: #000C7A;
+    background-color: white;
+    transition: 0.5s;
 }
 
 h1 {
@@ -73,6 +75,7 @@ header, footer {
 
 
 .bio {
+    transition: 0.5s;
     padding: 50px;
     background-color: #E8F7FF;
     overflow: hidden;
@@ -136,6 +139,7 @@ section h4 {
 }
 
 .blue {
+    transition: 0.5s;
     background-color: #3A45AF;
     color: #EBEDFF;
 }
@@ -143,6 +147,7 @@ section h4 {
 .white {
     background-color: white;
     color: #000C7A;
+    transition: 0.5s;
 }
 
 footer {
@@ -152,6 +157,42 @@ footer {
 
 footer p {
     margin: 0px;
+}
+
+/* Dark mode */
+
+.darkmode {
+    background-color: rgb(12, 0, 66);
+    color: #E8F7FF;
+}
+
+.white.darkmode {
+    color: #E8F7FF;
+    background-color: #131955;
+}
+
+/* Dark mode button */
+
+.dot{
+    transition: 0.5s;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    background-color: #E8F7FF;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(122, 122, 122);
+}
+
+.dot.darkmode{
+    background-color: #131955;
+    box-shadow: 2px 2px 4px rgb(15, 6, 56);
+}
+
+.center {
+    margin: 5px;
 }
 
 @media screen and (max-width: 450px) {

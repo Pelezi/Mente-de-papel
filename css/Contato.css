@@ -50,11 +50,12 @@ input:focus {
 }
 
 section {
+    transition: 0.5s;
     background-color: #E8F7FF;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(146, 146, 146);
     border-collapse: collapse;
 }
 
@@ -64,6 +65,9 @@ th, td {
 
 .invalid {
     border: 1px solid red;
+}
+.bio.darkmode, section.darkmode {
+    background-color: #131955;
 }
 
 @media screen and (max-width: 1000px) {

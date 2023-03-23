@@ -8,6 +8,7 @@ h4 {
 }
 
 .item-portfolio {
+    transition: 0.5s;
     border: 1px solid #E8F7FF;
     margin: 25px;
     display: inline-block;
@@ -24,6 +25,7 @@ h4 {
 }
 
 .item-portfolio a {
+    transition: 0.5s;
     text-decoration: none;
     color: #000C7A;
 }
@@ -35,6 +37,24 @@ h4 {
 .item-portfolio small {
     display:inline-block;
     text-align: left;
+}
+
+.darkmode {
+    border: 1px solid black;
+}
+
+.item-portfolio.darkmode {
+    color: #E8F7FF;
+    background-color: #131955;
+}
+
+.white .item-portfolio.darkmode {
+    color: #E8F7FF;
+    background-color: rgb(12, 0, 66);
+}
+
+.darkmode a {
+    color: #E8F7FF;
 }
 
 @media screen and (max-width: 600px) {
