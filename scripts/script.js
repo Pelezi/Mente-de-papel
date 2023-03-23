@@ -75,23 +75,28 @@ function themeswitch(){
         dot.classList.add('darkmode');
 
         if(sections != null){
-            themeswitcher.setAttribute('src', 'assets/light_moon.png');
             sections.forEach(section => {
                 section.classList.add('darkmode');
             });
         }        
 
         if(info != null){
-            themeswitcher.setAttribute('src', '../assets/light_moon.png');
             info.classList.add('darkmode');
             socialMedia.classList.add('darkmode');
         }
 
         if(portfolio != null){
-            themeswitcher.setAttribute('src', '../assets/light_moon.png');
             portfolio.forEach(div => {
                 div.classList.add('darkmode');
             });
+        }
+
+        if (themeswitcher.getAttribute('src') == 'assets/NicePng_moon-png_60348.png'){
+            themeswitcher.setAttribute('src', 'assets/light_moon.png');
+        }
+
+        if (themeswitcher.getAttribute('src') == '../assets/NicePng_moon-png_60348.png'){
+            themeswitcher.setAttribute('src', '../assets/light_moon.png');
         }
 
     }else{
@@ -100,23 +105,28 @@ function themeswitch(){
         dot.classList.remove('darkmode');
 
         if(sections != null){
-            themeswitcher.setAttribute('src', 'assets/NicePng_moon-png_60348.png');
             sections.forEach(section => {
                 section.classList.remove('darkmode');
             });
         }
 
         if(info != null){
-            themeswitcher.setAttribute('src', '../assets/NicePng_moon-png_60348.png');
             info.classList.remove('darkmode');
             socialMedia.classList.remove('darkmode');
         }
 
         if(portfolio != null){
-            themeswitcher.setAttribute('src', '../assets/NicePng_moon-png_60348.png');
             portfolio.forEach(div => {
                 div.classList.remove('darkmode');
             });
+        }
+
+        if (themeswitcher.getAttribute('src') == 'assets/light_moon.png'){
+            themeswitcher.setAttribute('src', 'assets/NicePng_moon-png_60348.png');
+        }
+
+        if (themeswitcher.getAttribute('src') == '../assets/light_moon.png'){
+            themeswitcher.setAttribute('src', '../assets/NicePng_moon-png_60348.png');
         }
 
     }
